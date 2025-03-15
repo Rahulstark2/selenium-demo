@@ -1,3 +1,22 @@
+//Assignment: Automate Search Functionality on an E-Commerce Website
+//
+//Open an e-commerce website like https://www.amazon.in or a demo website like http://automationpractice.com/index.php.
+//Automate the following steps:
+//Launch the browser and navigate to the website.
+//Locate the search bar and enter a product name (e.g., "shirt").
+//Click the search button.
+//Verify if the search results contain the product name in the titles or descriptions.
+//Print the names of the first five search results in the console.
+//Close the browser after the test.
+//Requirements:
+//
+//Use Selenium WebDriver to interact with the website.
+//Use assertions (e.g., JUnit or TestNG) to verify the search results.
+//Write modular code for better readability and maintenance.
+
+
+
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
