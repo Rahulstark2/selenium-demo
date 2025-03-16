@@ -1,3 +1,35 @@
+//Assignment: Automate the Add to Cart Functionality
+//Scenario:
+//Automate the "Add to Cart" functionality of an e-commerce website like https://www.saucedemo.com/.
+//
+//Steps:
+//
+//Launch the browser and navigate to the website.
+//Log in using the provided credentials:
+//Username: standard_user
+//Password: secret_sauce
+//Add the first two items displayed on the products page to the cart.
+//Navigate to the cart page.
+//Verify the names of the products in the cart match the ones added from the products page.
+//Print the names and prices of the items in the cart to the console.
+//Close the browser.
+//Requirements:
+//Use dynamic waits (e.g., WebDriverWait) for synchronization.
+//Write assertions to verify:
+//The products added to the cart appear correctly.
+//The total count of products in the cart is correct.
+//Modularize your code (e.g., separate methods for login, add to cart, verification).
+//Hints for Locators:
+//
+//Use the id, class, or xpath attributes to locate elements. For example:
+//Login fields: username, password
+//Add to cart buttons: Look for buttons like //button[text()='Add to cart']
+//Cart link: id="shopping_cart_container"
+//Let me know if you need assistance with the implementation or troubleshooting! 😊
+
+
+
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -6,7 +38,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.junit.Assert;
 
 public class AutomateAddToCartFunctionality {
 	WebDriver driver;
